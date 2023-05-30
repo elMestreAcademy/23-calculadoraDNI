@@ -16,8 +16,11 @@ El algoritmo hace lo siguiente: se divide el número entero del DNI entre 23. Co
 Y a lo obtenido se resta del número del dni. El resto será siempre un número comprendido entre 0 y 22 y buscaremos la equivalencia en letras establecida por la Agencia Tributaria.
 
 **Un ejemplo:**
+
 09408901
+
 9408901 / 23 = 409082,65
+
 Nos quedamos con 409082 *23 = 9408886
 
 Diferencia 9408901 – 9408886 = 15….    Buscamos y ..  es la “S”
